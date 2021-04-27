@@ -4,7 +4,7 @@ class CreateAlreadyReads < ActiveRecord::Migration[6.1]
       t.string :title
       t.string :author
       t.string :book_id
-      t.string :have_read
+      t.boolean :have_read
 
       t.timestamps
     end
