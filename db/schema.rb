@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_27_171625) do
     t.string "title"
     t.string "author"
     t.string "book_id"
-    t.string "have_read"
+    t.boolean "have_read"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
