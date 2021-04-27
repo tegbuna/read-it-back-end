@@ -1,0 +1,2 @@
+class AlreadyRead < ApplicationRecord
+end

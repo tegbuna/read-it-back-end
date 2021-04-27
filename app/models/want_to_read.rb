@@ -1,0 +1,2 @@
+class WantToRead < ApplicationRecord
+end
