@@ -5,9 +5,13 @@ one:
   author: MyString
   book_id: MyString
   have_read: MyString
+  genre: MyString
+  description: MyString
 
 two:
   title: MyString
   author: MyString
   book_id: MyString
   have_read: MyString
+  genre: MyString
+  description: MyString

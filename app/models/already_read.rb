@@ -1,2 +1,0 @@
-class AlreadyRead < ApplicationRecord
-end
