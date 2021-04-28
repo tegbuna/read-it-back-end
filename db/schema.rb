@@ -10,25 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_27_171625) do
+ActiveRecord::Schema.define(version: 2021_04_28_173955) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "already_reads", force: :cascade do |t|
+  create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "author"
     t.string "book_id"
     t.boolean "have_read"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "want_to_reads", force: :cascade do |t|
-    t.string "title"
-    t.string "author"
-    t.string "book_id"
-    t.boolean "have_read"
+    t.string "genre"
+    t.string "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
