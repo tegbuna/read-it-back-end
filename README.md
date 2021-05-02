@@ -1,24 +1,31 @@
-# README
+# Readit 📚 :
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a back-end project "Readit". Users can search for books that they want to read, add books to their "Want to read" list, "Have read" list, or "Currently reading" list in "Readit". 
+___
+## How To Use This App: 
+### Click <a href='https://we-read-it.herokuapp.com/'>here</a> to open with Heroku
+___
 
-Things you may want to cover:
+## Technologies Used ⚙️:
+- JavaScript
+- GitHub
+- REACT
+- HTML
+- CSS
+- Trello
+- Invisionapp
+- Heroku
+- Ruby
+- Rails
+- Database
+___
 
-* Ruby version
+## Developers 👩🏾‍💻👨🏽‍💻:
+- ### <a href='https://www.linkedin.com/in/aigulsharipova/'>Aigul Sharipova</a>
+- ### <a href='https://github.com/osully1'>Owen Sullivan</a>
+- ### <a href='https://www.linkedin.com/in/patrick--long/'>Patrick Long</a>
+- ### <a href='https://www.linkedin.com/in/tasha-l-egbuna/'>Tasha L. Egbuna</a>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Screenshots 📸
+![Example](./public/images/pic1.png)
+![Example](./public/images/pic2.png)
